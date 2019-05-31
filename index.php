@@ -99,7 +99,7 @@ foreach($items as $post) {
                                                                                         echo ' <b>('. $value['peer'].') </b>';
                                                                                         echo ' ('. $value['seed'].') ';
                                                                                         echo '</td>';
-                                                                                    // echo '<td><button type="button" class="btn btn-default" id="dialog-overlay-opener">Launch</button></td>';
+                                                                                    echo '<td><button type="button" class="btn btn-default classloader">Add</button></td>';
                                                                                     echo '</tr>';
 																				}
 																		 ?>	
@@ -147,9 +147,21 @@ foreach($items as $post) {
         <script src="assets/js/jquery.ui.custom.js"></script>
         <script language="javascript">
         $(function(){
-        $(".classloader").click(function(){
-            $("#contenthere").load("https://ip.bayhan.ca");
-        });
+        $(".classloader").click(function () {
+        // $.post('http://localhost:3300/login', // url
+        //     {
+        //         data: 'username=mali&password=sspspsfdp'
+        //     }, // data to be submit
+        //     function (data, status, jqXHR) { // success callback
+        //         $.post('http://localhost:3300/command/download', // url
+        //             {
+        //                 urls: 'magnet:?xt=urn:btih:7ba0c6bd9b4e52ea2ad137d02394de7d83b98091&dn=&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopentor.org%3A2710&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=udp%3A%2F%2Ftracker.blackunicorn.xyz%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"'
+        //             }, // data to be submit
+        //             function (data, status, jqXHR) { // success callback
+        //                 console.log("success");
+        //             })
+        //     })
+        // });
         });
         </script>
     </body>
