@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\WinNMP\\WWW\\torrent-search"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "example"
+	}
+}
