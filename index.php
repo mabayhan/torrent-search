@@ -150,7 +150,7 @@ foreach($items as $post) {
         $(".classloader").click(function () {
         // $.post('http://localhost:3300/login', // url
         //     {
-        //         data: 'username=mali&password=sspspsfdp'
+        //         data: 'username=mali&password=*****'
         //     }, // data to be submit
         //     function (data, status, jqXHR) { // success callback
         //         $.post('http://localhost:3300/command/download', // url
